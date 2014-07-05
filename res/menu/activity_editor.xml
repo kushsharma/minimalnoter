@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yourapp="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/menu_editor_save"
+        android:orderInCategory="100"
+        yourapp:showAsAction="ifRoom"
+        android:title="Save"
+        android:icon="@drawable/ic_action_accept"/>
+    
+    <item 
+        android:id="@+id/item_editor_delete" 
+        android:title="Delete"
+        yourapp:showAsAction="ifRoom"
+        android:icon="@drawable/ic_action_discard"/>
+
+</menu>

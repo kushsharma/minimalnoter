@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yourapp="http://schemas.android.com/apk/res-auto" >
+
+    <!--
+         <item
+        android:id="@+id/menu_settings"
+        android:orderInCategory="100"
+        yourapp:showAsAction="ifRoom"
+        android:title="@string/menu_settings"
+        android:icon="@drawable/ic_action_settings"/>
+    -->
+    <item
+        android:id="@+id/menu_new_note"
+        android:icon="@drawable/ic_action_new"
+        android:orderInCategory="10"
+        android:title="Create New"
+        yourapp:showAsAction="always"/>
+    <item
+        android:id="@+id/menu_itemAbout"
+        android:icon="@drawable/ic_action_about"
+        android:orderInCategory="11"
+        android:title="About"
+        yourapp:showAsAction="ifRoom">
+    </item>
+
+</menu>
