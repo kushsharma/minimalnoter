@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 MinimalNoter
 ==============
 Features:
@@ -15,3 +16,9 @@ Dependencies:
 Add both of these as a library in project and you are good to go! And don't forget that this application is still in development phase.
 
 *You are free to use this project for education purpose or distribution just don't forget to give the credit who deserves.*
+=======
+minimalnoter
+============
+
+Android Application used to write down notes simple and fast.
+>>>>>>> 823c78b131f39731100e942ed9a737c9a4f13968
